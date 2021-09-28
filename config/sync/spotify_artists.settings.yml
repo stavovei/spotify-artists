@@ -1,0 +1,6 @@
+client_id: 72434f285e2c433da758d8f833c9759e
+client_secret: ''
+redirect_uri: 'http://cyberduck.ddev.site/spotify-callback'
+api_url: 'https://api.spotify.com'
+account_url: 'https://accounts.spotify.com'
+artists_ids: '2CIMQHirSU0MQqyYHq0eOx,57dN52uHvrHOxijzpIgu3E,1vCWHaC5f2uS3yhpwWbIA6,0TnOYISbd1XYRBk9myaseg,7n2wHs1TKAczGzO7Dd2rGr,4nDoRrQiYLoBzwC5BhVJzF,66CXWjxzNUsdJxJ2JdwvnR,1zNqDE7qDGCsyzJwohVaoX,6LuN9FCkKOj5PcnpouEgny,60d24wfXkVzDSfLS6hyCjZ,1HY2Jd0NmPuamShAr6KMms,06HL4z0CvFAxyc27GXpf02,1vCWHaC5f2uS3yhpwWbIA6,6jJ0s89eD6GaHleKKya26X,53XhwfbYqKCa1cC15pYq2q,6M2wZ9GZgrQXHCFfjv46we,2NdeV5rLm47xAvogXrYhJX,69GGBxA162lTqCwzJG5jLp,1Cs0zKBU1kc0i8ypK3B9ai,6qqNVTkY8uBg9cP3Jd7DAH,0hCNtLu0JehylgoiP8L4Gh'

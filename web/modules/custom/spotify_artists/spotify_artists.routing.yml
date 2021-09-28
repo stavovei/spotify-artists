@@ -1,0 +1,20 @@
+spotify_artists.settings:
+  path: '/admin/config/system/spotify_artists/settings'
+  defaults:
+    _form: '\Drupal\spotify_artists\Form\SpotifySettings'
+    _title: 'Spotify API settings'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+
+spotify_artists.detail_page:
+  path: '/artist/{id}'
+  defaults:
+    _controller: '\Drupal\spotify_artists\Controller\ArtistsController::getArtist'
+  requirements:
+    _permission: 'view artist detail page'
+  options:
+    parameters:
+      id:
+        type: string

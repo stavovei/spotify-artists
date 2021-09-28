@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * Implements hook_theme();
+ * @param $existing
+ * @param $type
+ * @param $theme
+ * @param $path
+ * @return array[]
+ */
+function spotify_artists_theme($existing, $type, $theme, $path) {
+  return [
+    'artists__listing' => [
+      'template' => 'artists--listing',
+      'variables' => [
+        'content' => [],
+      ],
+    ],
+    'artist__details' => [
+      'template' => 'artist--details',
+      'variables' => [
+        'content' => [],
+      ],
+    ],
+  ];
+}
+
+

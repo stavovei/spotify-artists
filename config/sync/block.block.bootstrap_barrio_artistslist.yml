@@ -1,0 +1,27 @@
+uuid: f0b3c3eb-a809-4c92-9ebe-197f24f4b77a
+langcode: en
+status: true
+dependencies:
+  module:
+    - spotify_artists
+    - system
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_artistslist
+theme: bootstrap_barrio
+region: content
+weight: 0
+provider: null
+plugin: artists_block
+settings:
+  id: artists_block
+  label: 'Artists List'
+  provider: spotify_artists
+  label_display: visible
+  no_artists: '4'
+visibility:
+  request_path:
+    id: request_path
+    pages: /
+    negate: false
+    context_mapping: {  }

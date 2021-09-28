@@ -1,0 +1,31 @@
+<div class="artist">
+  <h2>{{ content.name }}</h2>
+
+  <div class="followers">
+    <h4>Number of followers</h4>
+    <p>{{ content.followers }}</p>
+  </div>
+
+  <div class="genres">
+    <h4>Genres played</h4>
+    <ul>
+    {% for genre in content.genres %}
+      <li>
+        {{ genre }}
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+
+  <div class="images">
+    <h4>Images</h4>
+    {% for image in content.images %}
+      <img src="{{ image.url }}" alt="">
+    {% endfor %}
+  </div>
+
+  <div class="popularity">
+    <h4>Popularity</h4>
+    <p>{{ content.popularity }}</p>
+  </div>
+</div>

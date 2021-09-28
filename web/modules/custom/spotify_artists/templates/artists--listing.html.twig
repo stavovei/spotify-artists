@@ -1,0 +1,12 @@
+<div class="artists">
+  <ul class="list-group">
+    {% for artist in content.artists %}
+      <li class="list-group-item">
+        <a href="/artist/{{ artist.id }}">
+          <img class="artist-image" src="{{ artist.images[0]['url'] }}" alt="">
+          <p>{{ artist.name }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

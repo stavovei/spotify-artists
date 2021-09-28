@@ -1,0 +1,13 @@
+name: Media Entity Spotify
+type: module
+description: Media entity Spotify provider.
+# core: 8.x
+package: Media
+dependencies:
+  - media_entity
+
+# Information added by Drupal.org packaging script on 2017-02-02
+version: '8.x-1.0-beta1'
+core: '8.x'
+project: 'media_entity_spotify'
+datestamp: 1486054685

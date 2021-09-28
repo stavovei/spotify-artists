@@ -1,0 +1,6 @@
+spotify_artists.settings:
+  title: 'Spotify API Credentials'
+  route_name: spotify_artists.settings
+  description: 'Spotify API credentials for API calls.'
+  parent: system.admin_config_system
+  weight: 100

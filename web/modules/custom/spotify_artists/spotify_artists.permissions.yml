@@ -1,0 +1,4 @@
+view artist detail page:
+  description: 'View artist details page'
+  title: 'View artist detail page'
+  restrict access: TRUE

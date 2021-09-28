@@ -1,0 +1,10 @@
+name: Spotify Artists
+description: Provides a list fo artists from Spotify using Spotify Web API.
+package: Development
+type: module
+core_version_requirement: ^8.8.0 || ^9
+configure: spotify_artists.settings
+
+# Information added by Drupal.org packaging script on 2021-09-22
+version: '1.0'
+project: 'spotify_artists'
